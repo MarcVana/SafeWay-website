@@ -1,0 +1,1890 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .logo-div img {
+        height: 60px;
+    }
+    .logo-div p {
+        font-size: 1.25rem;
+        margin-left: 5px;
+    }
+
+    .social-div {
+        height: 60px;
+        font-size: 1.5rem;
+        top: 22.5px;
+    }
+    .social-div a {
+        padding: 5px;
+        margin: 0 5px;
+    }
+
+    .motto {
+        font-size: 1.5rem;
+        letter-spacing: 3px !important;
+        width: 85%;
+        margin: 0 7.5%;
+        letter-spacing: 5px;
+        left: 0;
+        transform: translate(0, 0);
+    }
+
+    .under-motto {
+        font-size: 1rem;
+        width: 70%;
+        bottom: 40%;
+    }
+
+    .app {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        width: fit-content;
+    }
+
+    .app:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    .note {
+        font-size: 0.75rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        left: 0;
+        transform: translate(0, -50%);
+        bottom: 30px;
+    }
+
+    .arrow-down {
+        bottom: 10px;
+        padding: 0;
+        font-size: 1.25rem;
+    }
+
+    .arrow-down:hover {
+        bottom: 0px;
+    }
+
+    .title-section .language {
+        font-size: 0.75rem;
+        padding: 0.5rem 1.5rem;
+        margin-top: 20px;
+    }
+
+    .title-section .language:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    #app-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    #app-section h1 {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+
+    #app-section h1:after {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    #app-section > img {
+        position: relative;
+        top: 100px;
+        width: 60%;
+        margin-bottom: -130px;
+    }
+
+    #app-section div {
+        position: relative;
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    #app-section div h3 {
+        font-size: 1rem;
+    }
+
+    #app-section div h3:after {
+        display: block;
+        height: 3px;
+        width: 30%;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.2);
+        content: "";
+        margin-top: 10px;
+    }
+
+    #app-section div p {
+        font-size: 0.75rem;
+    }
+
+    .social-container {
+        top: 27vh;
+        left: 0;
+        width: 30px !important;
+    }
+
+    .social-container a {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .text-1,
+    .text-2,
+    .text-3,
+    .text-4 {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 0;
+        border: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #contact-section {
+        height: auto;
+        background-position-x: -400px;
+    }
+
+    #contact-section h1 {
+        font-size: 1.5rem;
+        position: relative;
+        text-align: center;
+        letter-spacing: 5px;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+        padding-top: 50px;
+    }
+
+    #contact-section > h3 {
+        font-size: 1rem;
+        position: relative;
+        text-align: center;
+        letter-spacing: 0px;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+
+    #contact-section .container {
+        position: relative;
+        transform: translate(0, 0);
+        top: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 320px;
+        display: block;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 20px;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+        font-size: 1.25rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    .col-25 {
+        margin-top: 20px;
+    }
+
+    input[type="submit"] {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    input[type="submit"]:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    .my-footer {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+    }
+
+    .my-footer .social-div {
+        font-size: 2rem;
+        top: 45px;
+    }
+
+    .my-footer img {
+        height: 100px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .my-footer h2,
+    .my-footer h3 {
+        font-size: 1rem;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        transform: translate(0, 0);
+    }
+
+    .my-footer h2 {
+        font-size: 1.5rem;
+        margin-bottom: -10px;
+    }
+
+    .my-footer .language {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        transform: translate(0, 0);
+        font-size: 0.75rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .my-footer .language:hover {
+        padding: 0.5rem 3rem;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+    .logo-div img {
+        height: 60px;
+    }
+    .logo-div p {
+        font-size: 1.25rem;
+        margin-left: 5px;
+    }
+
+    .social-div {
+        height: 60px;
+        font-size: 1.5rem;
+        top: 22.5px;
+    }
+    .social-div a {
+        padding: 5px;
+        margin: 0 5px;
+    }
+
+    .motto {
+        font-size: 1.5rem;
+        width: 85%;
+        margin: 0 7.5%;
+        letter-spacing: 5px;
+        left: 0;
+        transform: translate(0, 0);
+    }
+
+    .under-motto {
+        font-size: 1rem;
+        width: 70%;
+        bottom: 37.5%;
+    }
+
+    .app {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        width: fit-content;
+    }
+
+    .app:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    .note {
+        font-size: 0.75rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        left: 0;
+        transform: translate(0, -50%);
+        bottom: 30px;
+    }
+
+    .arrow-down {
+        bottom: 10px;
+        padding: 0;
+        font-size: 1.25rem;
+    }
+
+    .arrow-down:hover {
+        bottom: 0px;
+    }
+
+    .title-section .language {
+        font-size: 0.75rem;
+        padding: 0.5rem 1.5rem;
+        top: 55px;
+    }
+
+    .title-section .language:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    #app-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    #app-section h1 {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+
+    #app-section h1:after {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    #app-section > img {
+        position: relative;
+        top: 0px;
+        left: 0;
+        display: block;
+        margin: 0 auto;
+        margin-top: 75px;
+        transform: translate(0, 0);
+        width: 200px;
+        padding-bottom: 150px;
+    }
+
+    #app-section h1 {
+        font-size: 1.25rem;
+    }
+
+    #app-section h1:after {
+        width: 290px;
+    }
+
+    #app-section div {
+        width: 30vw;
+    }
+
+    #app-section div h3 {
+        font-size: 1.25rem;
+    }
+
+    #app-section div p {
+        font-size: 0.75rem;
+    }
+
+    .text-1,
+    .text-3 {
+        right: 20px;
+    }
+    .text-2,
+    .text-4 {
+        left: 20px;
+    }
+    .text-1 p,
+    .text-3 p {
+        padding-right: 20px;
+    }
+    .text-2 p,
+    .text-4 p {
+        padding-left: 20px;
+    }
+
+    .text-1 {
+        top: 100px;
+    }
+    .text-2 {
+        top: 150px;
+    }
+    .text-3 {
+        top: 450px;
+    }
+    .text-4 {
+        top: 500px;
+    }
+
+    .social-container {
+        left: 10px;
+        top: calc(50% - 50px);
+        transform: translate(0, 0);
+        width: 30px !important;
+    }
+
+    .social-container a {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    #contact-section {
+        height: auto;
+        background-position-x: -400px;
+    }
+
+    #contact-section h1 {
+        font-size: 1.5rem;
+        position: relative;
+        text-align: center;
+        letter-spacing: 5px;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+        padding-top: 50px;
+    }
+
+    #contact-section > h3 {
+        font-size: 1rem;
+        position: relative;
+        text-align: center;
+        letter-spacing: 0px;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+
+    #contact-section .container {
+        position: relative;
+        transform: translate(0, 0);
+        top: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 320px;
+        display: block;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 20px;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+        font-size: 1.25rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    .col-25 {
+        margin-top: 20px;
+    }
+
+    input[type="submit"] {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    input[type="submit"]:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    .my-footer {
+        position: relative;
+        width: 50%;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 0;
+    }
+
+    .my-footer .social-div {
+        font-size: 2rem;
+        top: 45px;
+    }
+
+    .my-footer img {
+        height: 100px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .my-footer h2,
+    .my-footer h3 {
+        font-size: 1rem;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        transform: translate(0, 0);
+    }
+
+    .my-footer h2 {
+        font-size: 1.5rem;
+        margin-bottom: -10px;
+    }
+
+    .my-footer .language {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        transform: translate(0, 0);
+        font-size: 0.75rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .my-footer .language:hover {
+        padding: 0.5rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+    #app-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    #app-section h1 {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+
+    #app-section h1:after {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    #app-section > img {
+        position: relative;
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: -130px;
+        margin-top: -130px;
+    }
+
+    #app-section div {
+        position: relative;
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    #app-section div h3 {
+        font-size: 1rem;
+    }
+
+    #app-section div p {
+        font-size: 0.75rem;
+    }
+
+    .social-container {
+        top: 175px;
+        left: 20px;
+        width: 50px !important;
+    }
+
+    .social-container a {
+        font-size: 2.5rem;
+        margin: 10px 0;
+    }
+
+    .text-1,
+    .text-2,
+    .text-3,
+    .text-4 {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 0;
+        border: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 500px) and (orientation: landscape) {
+    .logo-div img {
+        height: 60px;
+    }
+    .logo-div p {
+        font-size: 1.25rem;
+        margin-left: 5px;
+    }
+
+    .social-div {
+        height: 60px;
+        font-size: 1.5rem;
+        top: 22.5px;
+    }
+    .social-div a {
+        padding: 5px;
+        margin: 0 5px;
+    }
+
+    .motto {
+        font-size: 2.5rem;
+        width: 70%;
+        margin: 0 15%;
+        letter-spacing: 5px;
+        left: 0;
+        transform: translate(0, 0);
+    }
+
+    .under-motto {
+        font-size: 1.5rem;
+        width: 70%;
+        bottom: 37.5%;
+    }
+
+    .app {
+        font-size: 1.5rem;
+        padding: 0.5rem 1.5rem;
+        width: fit-content;
+    }
+
+    .app:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    .note {
+        font-size: 0.75rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        left: 0;
+        transform: translate(0, -50%);
+        bottom: 30px;
+    }
+
+    .arrow-down {
+        bottom: 10px;
+        padding: 0;
+        font-size: 1.25rem;
+    }
+
+    .arrow-down:hover {
+        bottom: 0px;
+    }
+
+    .title-section .language {
+        font-size: 0.75rem;
+        padding: 0.5rem 1.5rem;
+        top: 55px;
+    }
+
+    .title-section .language:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    #app-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    #app-section h1 {
+        font-size: 1.75rem;
+        letter-spacing: 5px;
+    }
+
+    #app-section h1:after {
+        margin-top: 10px;
+        width: 275px;
+    }
+
+    #app-section > img {
+        position: relative;
+        top: 0px;
+        left: 0;
+        display: block;
+        margin: 0 auto;
+        margin-top: 75px;
+        transform: translate(0, 0);
+        width: 250px;
+        padding-bottom: 75px;
+    }
+
+    #app-section div {
+        width: 30vw;
+    }
+
+    #app-section div h3 {
+        font-size: 1.25rem;
+    }
+
+    #app-section div p {
+        font-size: 0.75rem;
+    }
+
+    .text-1,
+    .text-3 {
+        right: 50px;
+    }
+    .text-2,
+    .text-4 {
+        left: 50px;
+    }
+    .text-1 p,
+    .text-3 p {
+        padding-right: 20px;
+    }
+    .text-2 p,
+    .text-4 p {
+        padding-left: 20px;
+    }
+
+    .text-1 {
+        top: 150px;
+    }
+    .text-2 {
+        top: 200px;
+    }
+    .text-3 {
+        top: 550px;
+    }
+    .text-4 {
+        top: 575px;
+    }
+
+    .social-container {
+        left: 20px;
+        top: calc(50% - 50px);
+        transform: translate(0, 0);
+        width: 30px !important;
+    }
+
+    .social-container a {
+        font-size: 2rem;
+        margin: 10px 0;
+    }
+
+    #contact-section {
+        height: auto;
+        background-position-x: -400px;
+    }
+
+    #contact-section h1 {
+        font-size: 1.75rem;
+        position: relative;
+        text-align: center;
+        letter-spacing: 5px;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+        padding-top: 50px;
+    }
+
+    #contact-section > h3 {
+        font-size: 1.25rem;
+        position: relative;
+        text-align: center;
+        letter-spacing: 0px;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+
+    #contact-section .container {
+        position: relative;
+        transform: translate(0, 0);
+        top: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 20px;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+        font-size: 1.25rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    .col-25 {
+        margin-top: 20px;
+    }
+
+    input[type="submit"] {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    input[type="submit"]:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    .my-footer {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 0;
+    }
+
+    .my-footer .social-div {
+        font-size: 2rem;
+        top: 45px;
+    }
+
+    .my-footer img {
+        height: 100px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .my-footer h2,
+    .my-footer h3 {
+        font-size: 1rem;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        transform: translate(0, 0);
+    }
+
+    .my-footer h2 {
+        font-size: 1.5rem;
+        margin-bottom: -10px;
+    }
+
+    .my-footer .language {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        transform: translate(0, 0);
+        font-size: 0.75rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .my-footer .language:hover {
+        padding: 0.5rem 3rem;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .logo-div img {
+        height: 60px;
+    }
+    .logo-div p {
+        font-size: 1.25rem;
+        margin-left: 5px;
+    }
+
+    .social-div {
+        height: 60px;
+        font-size: 1.5rem;
+        top: 22.5px;
+    }
+    .social-div a {
+        padding: 5px;
+        margin: 0 5px;
+    }
+
+    .motto {
+        font-size: 2.5rem;
+        width: 70%;
+        margin: 0 15%;
+        letter-spacing: 5px;
+        left: 0;
+        transform: translate(0, 0);
+    }
+
+    .under-motto {
+        font-size: 1.5rem;
+        width: 70%;
+        bottom: 37.5%;
+    }
+
+    .app {
+        font-size: 1.5rem;
+        padding: 0.5rem 1.5rem;
+        width: fit-content;
+    }
+
+    .app:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    .note {
+        font-size: 0.75rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        left: 0;
+        transform: translate(0, -50%);
+        bottom: 30px;
+    }
+
+    .arrow-down {
+        bottom: 10px;
+        padding: 0;
+        font-size: 1.25rem;
+    }
+
+    .arrow-down:hover {
+        bottom: 0px;
+    }
+
+    .title-section .language {
+        font-size: 0.75rem;
+        padding: 0.5rem 1.5rem;
+        top: 55px;
+    }
+
+    .title-section .language:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    #app-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    #app-section h1 {
+        font-size: 1.75rem;
+        letter-spacing: 5px;
+    }
+
+    #app-section h1:after {
+        margin-top: 10px;
+        width: 275px;
+    }
+
+    #app-section > img {
+        position: relative;
+        top: 0px;
+        left: 0;
+        display: block;
+        margin: 0 auto;
+        margin-top: 75px;
+        transform: translate(0, 0);
+        width: 250px;
+        padding-bottom: 150px;
+    }
+
+    #app-section div {
+        width: 30vw;
+    }
+
+    #app-section div h3 {
+        font-size: 1.25rem;
+    }
+
+    #app-section div p {
+        font-size: 0.75rem;
+    }
+
+    .text-1,
+    .text-3 {
+        right: 20px;
+    }
+    .text-2,
+    .text-4 {
+        left: 20px;
+    }
+    .text-1 p,
+    .text-3 p {
+        padding-right: 20px;
+    }
+    .text-2 p,
+    .text-4 p {
+        padding-left: 20px;
+    }
+
+    .text-1 {
+        top: 150px;
+    }
+    .text-2 {
+        top: 200px;
+    }
+    .text-3 {
+        top: 550px;
+    }
+    .text-4 {
+        top: 575px;
+    }
+
+    .social-container {
+        left: 10px;
+        top: calc(50% - 50px);
+        transform: translate(0, 0);
+        width: 30px !important;
+    }
+
+    .social-container a {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    #contact-section {
+        height: auto;
+        background-position-x: -400px;
+    }
+
+    #contact-section h1 {
+        font-size: 1.75rem;
+        position: relative;
+        text-align: center;
+        letter-spacing: 5px;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+        padding-top: 50px;
+    }
+
+    #contact-section > h3 {
+        font-size: 1.25rem;
+        position: relative;
+        text-align: center;
+        letter-spacing: 0px;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+
+    #contact-section .container {
+        position: relative;
+        transform: translate(0, 0);
+        top: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 20px;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+        font-size: 1.25rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    .col-25 {
+        margin-top: 20px;
+    }
+
+    input[type="submit"] {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    input[type="submit"]:hover {
+        padding: 0.5rem 3rem;
+    }
+
+    .my-footer {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 0;
+    }
+
+    .my-footer .social-div {
+        font-size: 2rem;
+        top: 45px;
+    }
+
+    .my-footer img {
+        height: 100px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .my-footer h2,
+    .my-footer h3 {
+        font-size: 1rem;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        transform: translate(0, 0);
+    }
+
+    .my-footer h2 {
+        font-size: 1.5rem;
+        margin-bottom: -10px;
+    }
+
+    .my-footer .language {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        transform: translate(0, 0);
+        font-size: 0.75rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .my-footer .language:hover {
+        padding: 0.5rem 3rem;
+    }
+}
+
+/* iPads Pro (portrait) ----------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1223px) and (orientation: portrait) {
+    .logo-div img {
+        height: 110px;
+    }
+
+    .logo-div p {
+        font-size: 2.5rem;
+    }
+
+    .title-section .social-div {
+        font-size: 2.5rem;
+        top: 20px;
+        height: 135px;
+    }
+
+    .title-section .social-div a {
+        padding: 10px;
+        margin: 0 20px;
+    }
+
+    .motto {
+        font-size: 3rem;
+        letter-spacing: 10px;
+    }
+
+    .under-motto {
+        bottom: 40%;
+        width: 50%;
+        font-size: 1.75rem;
+    }
+
+    .app {
+        font-size: 1.75rem;
+        padding: 0.75rem 2.5rem;
+    }
+
+    .app:hover {
+        padding: 0.75rem 5rem;
+    }
+
+    .note {
+        font-size: 1.25rem;
+        bottom: 50px;
+    }
+
+    .title-section .language {
+        top: 90px;
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+    }
+    .title-section .language:hover {
+        padding: 0.75rem 4rem;
+    }
+
+    .arrow-down {
+        bottom: 5px;
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .arrow-down:hover {
+        bottom: -5px;
+    }
+
+    #app-section > img {
+        width: 250px;
+    }
+
+    #app-section h1 {
+        font-size: 2.5rem;
+    }
+
+    #app-section h1:after {
+        width: 320px;
+    }
+
+    #app-section div {
+        width: 30vw;
+    }
+
+    #app-section div h3 {
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        margin: 0;
+    }
+
+    #app-section div p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .text-1,
+    .text-3 {
+        right: 50px;
+    }
+    .text-2,
+    .text-4 {
+        left: 50px;
+    }
+
+    .text-1 {
+        top: 175px;
+    }
+    .text-2 {
+        top: 200px;
+    }
+    .text-3 {
+        top: 575px;
+    }
+    .text-4 {
+        top: 600px;
+    }
+
+    .social-container {
+        left: 20px;
+    }
+    .social-container a {
+        font-size: 2.75rem;
+    }
+
+    #contact-section {
+        height: fit-content;
+    }
+
+    #contact-section h1 {
+        font-size: 2.5rem;
+    }
+
+    #contact-section > h3 {
+        font-size: 1.5rem;
+    }
+
+    input[type="submit"] {
+        font-size: 1.5rem;
+        padding: 0.75rem 3rem;
+    }
+    input[type="submit"]:hover {
+        padding: 0.75rem 5rem;
+    }
+
+    .my-footer img {
+        height: 150px;
+    }
+
+    .my-footer .social-div a {
+        font-size: 2.75rem;
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    .my-footer h2 {
+        font-size: 2.5rem;
+        margin-top: -50px;
+    }
+
+    .my-footer .language {
+        font-size: 1rem;
+        padding: 0.75rem 2rem;
+    }
+
+    .my-footer .language:hover {
+        padding: 0.75rem 4rem;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    .logo-div img {
+        height: 110px;
+    }
+
+    .logo-div p {
+        font-size: 2.5rem;
+    }
+
+    .title-section .social-div {
+        font-size: 2.5rem;
+        top: 20px;
+        height: 135px;
+    }
+
+    .title-section .social-div a {
+        padding: 10px;
+        margin: 0 20px;
+    }
+
+    .motto {
+        width: 65%;
+        margin: 0 20%;
+        font-size: 3rem;
+        letter-spacing: 10px;
+    }
+
+    .under-motto {
+        bottom: 40%;
+        width: 40%;
+        font-size: 1.75rem;
+    }
+
+    .app {
+        font-size: 1.75rem;
+        padding: 0.75rem 2.5rem;
+    }
+
+    .app:hover {
+        padding: 0.75rem 5rem;
+    }
+
+    .note {
+        font-size: 1.25rem;
+        bottom: 50px;
+    }
+
+    .title-section .language {
+        top: 90px;
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+    }
+    .title-section .language:hover {
+        padding: 0.75rem 4rem;
+    }
+
+    .arrow-down {
+        bottom: 5px;
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .arrow-down:hover {
+        bottom: -5px;
+    }
+
+    #app-section > img {
+        width: 350px;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    #app-section h1 {
+        font-size: 2.5rem;
+    }
+
+    #app-section h1:after {
+        width: 450px;
+    }
+
+    #app-section div {
+        width: 30vw;
+    }
+
+    #app-section div h3 {
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        margin: 0;
+    }
+
+    #app-section div p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .text-1,
+    .text-3 {
+        right: 75px;
+    }
+    .text-2,
+    .text-4 {
+        left: 75px;
+    }
+
+    .text-1 {
+        top: 175px;
+    }
+    .text-2 {
+        top: 200px;
+    }
+    .text-3 {
+        top: 575px;
+    }
+    .text-4 {
+        top: 600px;
+    }
+
+    .social-container {
+        left: 50px;
+    }
+    .social-container a {
+        font-size: 2.75rem;
+    }
+
+    #contact-section {
+        padding: 50px;
+    }
+
+    #contact-section .container {
+        border: 5px solid rgba(255, 255, 255, 0.2);
+        border-right: none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 40%;
+        margin-left: 60%;
+    }
+
+    #contact-section h1 {
+        position: absolute;
+        width: fit-content;
+        font-size: 3.5rem;
+        text-align: left;
+        top: 20%;
+        left: 50px;
+        padding: 0;
+        margin-left: 50px;
+    }
+
+    #contact-section > h3 {
+        position: absolute;
+        width: fit-content;
+        top: 32.5%;
+        left: 100px;
+        transform: translate(0, 0);
+        font-size: 1.5rem;
+    }
+
+    input[type="submit"] {
+        font-size: 1.5rem;
+        padding: 0.75rem 3rem;
+    }
+    input[type="submit"]:hover {
+        padding: 0.75rem 5rem;
+    }
+
+    .my-footer {
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        margin-left: 50px;
+        height: 300px;
+        z-index: 5;
+        border-top: 5px solid rgba(255, 255, 255, 0.2);
+        border-left: 5px solid rgba(255, 255, 255, 0.2);
+        border-top-left-radius: 20px;
+    }
+
+    .my-footer img {
+        height: 125px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .my-footer .social-div {
+        top: 40px;
+        font-size: 2.5rem;
+    }
+
+    .my-footer h2 {
+        position: absolute;
+        z-index: 5;
+        top: 15px;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        color: white;
+        font-size: 2.25rem;
+    }
+
+    .my-footer h3 {
+        position: absolute;
+        z-index: 5;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: white;
+        font-size: 1.25rem;
+    }
+
+    .my-footer .language {
+        position: absolute;
+        z-index: 5;
+        left: 50%;
+        right: unset;
+        width: fit-content;
+        bottom: 62px;
+        transform: translate(-50%, 0);
+
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        font-size: 1.25rem;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        padding: 0.75rem 3rem;
+        border: 1px solid white;
+        border-radius: 50px;
+        transition: padding 0.25s ease-out;
+    }
+
+    .my-footer .language:hover {
+        background: white;
+        color: black;
+        padding: 0.75rem 5rem;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+    .motto {
+        font-size: 2.5rem;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .under-motto {
+        font-size: 1.25rem;
+        width: 20%;
+    }
+
+    .title-section .language {
+        font-size: 0.75rem;
+        top: 70px;
+    }
+
+    .logo-div img {
+        height: 100px;
+    }
+
+    .logo-div p {
+        margin-left: 30px;
+        font-size: 1.75rem;
+    }
+
+    .note {
+        font-size: 1rem;
+    }
+
+    .title-section .social-div {
+        height: 100px;
+        font-size: 2rem;
+    }
+
+    .app {
+        font-size: 1.5rem;
+    }
+
+    #app-section > img {
+        width: 300px;
+        padding-bottom: 50px;
+    }
+
+    .social-container {
+        left: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .social-container a {
+        font-size: 3rem;
+        margin: 30px 0;
+    }
+
+    #app-section h1 {
+        font-size: 3rem;
+    }
+
+    #app-section h1:after {
+        width: 550px;
+    }
+
+    #app-section div {
+        width: 25vw;
+    }
+
+    #app-section div h3 {
+        font-size: 1.5rem;
+    }
+
+    #app-section div p {
+        font-size: 1rem;
+    }
+
+    .text-1,
+    .text-3 {
+        right: 200px;
+    }
+    .text-2,
+    .text-4 {
+        left: 200px;
+    }
+
+    .text-1 {
+        top: 200px;
+    }
+    .text-2 {
+        top: 350px;
+    }
+    .text-3 {
+        top: 500px;
+    }
+    .text-4 {
+        top: 650px;
+    }
+
+    #contact-section {
+        background-position-x: 0;
+    }
+
+    #contact-section h1 {
+        font-size: 4.5rem;
+        left: 12.5%;
+    }
+
+    #contact-section > h3 {
+        font-size: 1.75rem;
+        top: 40%;
+        left: calc(12.5% + 55px);
+    }
+
+    #contact-section .container {
+        width: 20%;
+        margin-left: 67.5%;
+    }
+
+    .my-footer {
+        left: 12.5%;
+    }
+
+    .my-footer .social-div {
+        font-size: 2rem;
+    }
+
+    .my-footer .social-div a {
+        margin: 0 10px;
+    }
+
+    .my-footer img {
+        height: 150px;
+    }
+
+    .my-footer h2 {
+        font-size: 2.5rem;
+    }
+
+    .my-footer h3 {
+        font-size: 1.25rem;
+        top: 100px;
+    }
+
+    .my-footer .language {
+        bottom: 40px;
+        font-size: 1rem;
+    }
+}
+/* Huge screens ----------- */
+@media only screen and (min-width: 2000px) {
+    .motto {
+        font-size: 4rem;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .under-motto {
+        font-size: 2rem;
+        width: 20%;
+        bottom: 35%;
+    }
+
+    .title-section .language {
+        font-size: 1.25rem;
+        top: 100px;
+    }
+
+    .logo-div img {
+        height: 150px;
+    }
+
+    .logo-div p {
+        margin-left: 30px;
+        font-size: 3rem;
+    }
+
+    .title-section .social-div {
+        height: 150px;
+        font-size: 3rem;
+    }
+
+    .app {
+        font-size: 2rem;
+        padding: 0.75rem 5rem;
+    }
+    .app:hover {
+        padding: 0.75rem 8rem;
+    }
+
+    .note {
+        font-size: 1.25rem;
+        bottom: 50px;
+    }
+
+    .arrow-down {
+        font-size: 2rem;
+    }
+
+    #app-section > img {
+        width: 500px;
+        padding-bottom: 50px;
+    }
+
+    .social-container {
+        left: 100px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .social-container a {
+        font-size: 4rem;
+        margin: 30px 0;
+    }
+
+    #app-section h1 {
+        font-size: 4rem;
+    }
+
+    #app-section h1:after {
+        width: 675px;
+    }
+
+    #app-section div {
+        width: 25vw;
+    }
+
+    #app-section div h3 {
+        font-size: 2rem;
+    }
+
+    #app-section div p {
+        font-size: 1.25rem;
+    }
+
+    .text-1,
+    .text-3 {
+        right: 300px;
+    }
+    .text-2,
+    .text-4 {
+        left: 300px;
+    }
+
+    .text-1 {
+        top: 300px;
+    }
+    .text-2 {
+        top: 500px;
+    }
+    .text-3 {
+        top: 800px;
+    }
+    .text-4 {
+        top: 1000px;
+    }
+
+    #contact-section {
+        background-position-x: 0;
+    }
+
+    #contact-section h1 {
+        font-size: 6rem;
+        top: 200px;
+        left: 12.5%;
+    }
+
+    #contact-section > h3 {
+        font-size: 2rem;
+        top: 400px;
+        left: calc(12.5% + 55px);
+    }
+
+    #contact-section .container {
+        width: 20%;
+        margin-left: 67.5%;
+        padding-left: 50px;
+    }
+
+    label {
+        font-size: 1.25rem;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+        font-size: 2rem;
+    }
+
+    .my-footer {
+        left: 12.5%;
+    }
+
+    .my-footer .social-div {
+        font-size: 3rem;
+        top: 60px;
+    }
+
+    .my-footer .social-div a {
+        margin: 0 30px;
+    }
+
+    .my-footer img {
+        height: 200px;
+    }
+
+    .my-footer h2 {
+        font-size: 3.5rem;
+        top: 0px;
+    }
+
+    .my-footer h3 {
+        font-size: 2rem;
+        top: 100px;
+    }
+
+    .my-footer .language {
+        bottom: 40px;
+    }
+}

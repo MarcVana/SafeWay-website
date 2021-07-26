@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
+/*---------------------------------------------------------
+----- GLOBAL
+---------------------------------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+::-moz-selection {
+    color: white;
+    background: gray;
+}
+
+::selection {
+    color: white;
+    background: gray;
+}
+
+/*---------------------------------------------------------
+----- TITLE SECTION
+---------------------------------------------------------*/
+
+.title-section {
+    height: 100vh;
+    width: 100%;
+    background: black;
+    background-attachment: fixed;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.logo-div {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+}
+
+.logo-div img {
+    height: 110px;
+}
+
+.logo-div p {
+    color: white;
+    margin-left: 20px;
+    font-size: 2.5rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.social-div {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    height: 135px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.social-div a {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.social-div i {
+    color: white;
+    transition: 0.15s ease-out;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-facebook:hover {
+    color: #4267b2;
+}
+
+.fa-instagram:hover {
+    color: #fb3958;
+}
+
+.fa-envelope:hover {
+    color: #fbbc05;
+}
+
+.motto {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    line-height: 140%;
+}
+
+.under-motto {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    bottom: 40%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 140%;
+}
+
+.app {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: padding 0.25s ease-out;
+}
+
+.app:hover,
+.title-section .language:hover {
+    background: white;
+    color: black;
+    padding: 1rem 5rem;
+}
+
+.title-section .language:hover {
+    padding: 1rem 4rem;
+}
+
+.note {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    line-height: 140%;
+}
+
+.title-section .language {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: padding 0.25s ease-out;
+}
+
+.arrow-down {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    transition: all 0.15s linear;
+}
+
+.arrow-down:hover {
+    bottom: -10px;
+}
+
+/*---------------------------------------------------------
+----- APP SECTION
+---------------------------------------------------------*/
+
+#app-section {
+    height: 100vh;
+    position: relative;
+}
+
+#app-section img {
+    width: 450px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#app-section h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 15px;
+    position: relative;
+}
+
+#app-section h1:after {
+    display: block;
+    height: 3px;
+    width: 30%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    content: "";
+    margin-top: 30px;
+}
+
+#app-section div {
+    width: 25vw;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+}
+
+#app-section div h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+#app-section div p {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.text-1 {
+    right: 10%;
+    top: 20vh;
+    padding-left: 20px;
+    border-left: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.text-2 {
+    left: 10%;
+    top: 35vh;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.text-3 {
+    right: 10%;
+    top: 50vh;
+    padding-left: 20px;
+    border-left: 3px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 20px;
+}
+
+.text-4 {
+    left: 10%;
+    top: 65vh;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 3px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    border-bottom-right-radius: 20px;
+}
+
+.social-container {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 20px;
+    transform: translate(0, -50%);
+    width: 100px !important;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-container a {
+    font-size: 4rem;
+    color: black;
+    margin: 30px 0;
+}
+
+.social-container a i {
+    transition: 0.15s ease-out;
+}
+
+/*---------------------------------------------------------
+----- CONTACT SECTION
+---------------------------------------------------------*/
+
+#contact-section {
+    height: 100vh;
+    background: url("slideshow/11.jpg");
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#contact-section h1 {
+    position: absolute;
+    z-index: 5;
+    top: 30%;
+    left: 7.5%;
+    transform: translate(0, -50%);
+
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+#contact-section > h3 {
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    left: 7.5%;
+    transform: translate(0, -50%);
+
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#contact-section .container {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    right: 7.5%;
+    transform: translate(0, -50%);
+
+    height: auto;
+    width: 700px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: rgb(150, 150, 150);
+    padding: 40px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 0;
+    border-bottom: 2px solid white;
+    color: white;
+    background: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+}
+
+option {
+    font-family: "Open Sans", sans-serif;
+    background: #333;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-family: "Open Sans", sans-serif;
+    padding: 1rem 3rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: padding 0.25s ease-out;
+}
+
+input[type="submit"]:hover {
+    background: white;
+    color: black;
+    padding: 1rem 5rem;
+}
+
+.col-25 {
+    float: left;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.col-75 {
+    float: left;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*---------------------------------------------------------
+----- FOOTER
+---------------------------------------------------------*/
+
+.my-footer {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    margin-left: 7.5%;
+    height: 300px;
+    z-index: 5;
+    border-top: 5px solid rgba(255, 255, 255, 0.2);
+    border-left: 5px solid rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 20px;
+}
+
+.my-footer img {
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.my-footer .social-div {
+    top: 10px;
+}
+
+.my-footer h2 {
+    position: absolute;
+    z-index: 5;
+    top: 50px;
+    left: 375px;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 4rem;
+}
+
+.my-footer h3 {
+    position: absolute;
+    z-index: 5;
+    bottom: 30px;
+    left: 440px;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+}
+
+.my-footer .language {
+    position: absolute;
+    z-index: 5;
+    bottom: 62px;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: padding 0.25s ease-out;
+}
+
+.my-footer .language:hover {
+    background: white;
+    color: black;
+}
