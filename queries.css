@@ -25,6 +25,8 @@
         margin: 0 7.5%;
         letter-spacing: 5px;
         left: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
@@ -37,6 +39,8 @@
     .app {
         font-size: 1rem;
         padding: 0.5rem 1.5rem;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
     }
 
@@ -50,6 +54,8 @@
         margin-left: 5%;
         margin-right: 5%;
         left: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
         transform: translate(0, -50%);
         bottom: 30px;
     }
@@ -158,6 +164,8 @@
         left: 0;
         right: 0;
         top: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         padding-top: 50px;
     }
@@ -170,11 +178,15 @@
         left: 0;
         right: 0;
         top: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
     #contact-section .container {
         position: relative;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         top: 0;
         left: 0;
@@ -238,6 +250,8 @@
         top: 0;
         left: 0;
         text-align: center;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
@@ -251,8 +265,12 @@
         right: 0;
         bottom: 0;
         display: block;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         margin: 0 auto;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         font-size: 0.75rem;
         padding: 0.5rem 1.5rem;
@@ -289,6 +307,8 @@
         margin: 0 7.5%;
         letter-spacing: 5px;
         left: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
@@ -301,6 +321,8 @@
     .app {
         font-size: 1rem;
         padding: 0.5rem 1.5rem;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
     }
 
@@ -314,6 +336,8 @@
         margin-left: 5%;
         margin-right: 5%;
         left: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
         transform: translate(0, -50%);
         bottom: 30px;
     }
@@ -360,6 +384,8 @@
         display: block;
         margin: 0 auto;
         margin-top: 75px;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         width: 200px;
         padding-bottom: 150px;
@@ -418,6 +444,8 @@
     .social-container {
         left: 10px;
         top: calc(50% - 50px);
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         width: 30px !important;
     }
@@ -440,6 +468,8 @@
         left: 0;
         right: 0;
         top: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         padding-top: 50px;
     }
@@ -452,17 +482,21 @@
         left: 0;
         right: 0;
         top: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
     #contact-section .container {
         position: relative;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         top: 0;
         left: 0;
         right: 0;
         height: auto;
-        width: 320px;
+        width: 70%;
         display: block;
         margin: 0 auto;
         border: 0;
@@ -496,7 +530,7 @@
 
     .my-footer {
         position: relative;
-        width: 50%;
+        width: 70%;
         margin: 0 auto;
         border: 0;
         border-radius: 0;
@@ -520,6 +554,8 @@
         top: 0;
         left: 0;
         text-align: center;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
@@ -533,8 +569,12 @@
         right: 0;
         bottom: 0;
         display: block;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         margin: 0 auto;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         font-size: 0.75rem;
         padding: 0.5rem 1.5rem;
@@ -636,6 +676,8 @@
         margin: 0 15%;
         letter-spacing: 5px;
         left: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
@@ -648,6 +690,8 @@
     .app {
         font-size: 1.5rem;
         padding: 0.5rem 1.5rem;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
     }
 
@@ -661,6 +705,8 @@
         margin-left: 5%;
         margin-right: 5%;
         left: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
         transform: translate(0, -50%);
         bottom: 30px;
     }
@@ -707,6 +753,8 @@
         display: block;
         margin: 0 auto;
         margin-top: 75px;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         width: 250px;
         padding-bottom: 75px;
@@ -757,6 +805,8 @@
     .social-container {
         left: 20px;
         top: calc(50% - 50px);
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         width: 30px !important;
     }
@@ -779,6 +829,8 @@
         left: 0;
         right: 0;
         top: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         padding-top: 50px;
     }
@@ -791,11 +843,15 @@
         left: 0;
         right: 0;
         top: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
     #contact-section .container {
         position: relative;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         top: 0;
         left: 0;
@@ -859,6 +915,8 @@
         top: 0;
         left: 0;
         text-align: center;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
@@ -872,8 +930,12 @@
         right: 0;
         bottom: 0;
         display: block;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         margin: 0 auto;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         font-size: 0.75rem;
         padding: 0.5rem 1.5rem;
@@ -910,6 +972,8 @@
         margin: 0 15%;
         letter-spacing: 5px;
         left: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
@@ -922,6 +986,8 @@
     .app {
         font-size: 1.5rem;
         padding: 0.5rem 1.5rem;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
     }
 
@@ -935,6 +1001,8 @@
         margin-left: 5%;
         margin-right: 5%;
         left: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
         transform: translate(0, -50%);
         bottom: 30px;
     }
@@ -981,6 +1049,8 @@
         display: block;
         margin: 0 auto;
         margin-top: 75px;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         width: 250px;
         padding-bottom: 150px;
@@ -1031,6 +1101,8 @@
     .social-container {
         left: 10px;
         top: calc(50% - 50px);
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         width: 30px !important;
     }
@@ -1053,6 +1125,8 @@
         left: 0;
         right: 0;
         top: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         padding-top: 50px;
     }
@@ -1065,11 +1139,15 @@
         left: 0;
         right: 0;
         top: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
     #contact-section .container {
         position: relative;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         top: 0;
         left: 0;
@@ -1133,6 +1211,8 @@
         top: 0;
         left: 0;
         text-align: center;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
@@ -1146,8 +1226,12 @@
         right: 0;
         bottom: 0;
         display: block;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         margin: 0 auto;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         font-size: 0.75rem;
         padding: 0.5rem 1.5rem;
@@ -1280,6 +1364,8 @@
     }
 
     #contact-section {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
     }
 
@@ -1323,6 +1409,7 @@
         padding: 0.75rem 4rem;
     }
 }
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
     .logo-div img {
@@ -1465,6 +1552,8 @@
 
     #contact-section h1 {
         position: absolute;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         font-size: 3.5rem;
         text-align: left;
@@ -1476,9 +1565,13 @@
 
     #contact-section > h3 {
         position: absolute;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         top: 32.5%;
         left: 100px;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
         transform: translate(0, 0);
         font-size: 1.5rem;
     }
@@ -1519,6 +1612,8 @@
         z-index: 5;
         top: 15px;
         left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
 
         font-family: "Open Sans", sans-serif;
@@ -1532,6 +1627,8 @@
         z-index: 5;
         top: 100px;
         left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
 
         font-family: "Open Sans", sans-serif;
@@ -1545,8 +1642,12 @@
         z-index: 5;
         left: 50%;
         right: unset;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         bottom: 62px;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
 
         font-family: "Open Sans", sans-serif;
@@ -1559,6 +1660,8 @@
         padding: 0.75rem 3rem;
         border: 1px solid white;
         border-radius: 50px;
+        -webkit-transition: padding 0.25s ease-out;
+        -o-transition: padding 0.25s ease-out;
         transition: padding 0.25s ease-out;
     }
 
@@ -1617,6 +1720,8 @@
     .social-container {
         left: 50px;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 
@@ -1775,6 +1880,8 @@
     .social-container {
         left: 100px;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 

@@ -10,6 +10,7 @@ html {
 }
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -44,7 +45,6 @@ select:focus {
     height: 100vh;
     width: 100%;
     background: black;
-    background-attachment: fixed;
 }
 
 .overlay {
@@ -62,7 +62,13 @@ select:focus {
     top: 20px;
     left: 40px;
     z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
 }
 
@@ -83,7 +89,13 @@ select:focus {
     right: 40px;
     height: 135px;
     z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
     font-size: 2.5rem;
 }
@@ -95,6 +107,8 @@ select:focus {
 
 .social-div i {
     color: white;
+    -webkit-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
     transition: 0.15s ease-out;
 }
 
@@ -119,6 +133,8 @@ select:focus {
     z-index: 5;
     left: 50%;
     top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     font-family: "Open Sans", sans-serif;
@@ -137,6 +153,8 @@ select:focus {
     left: 50%;
     bottom: 40%;
     width: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     font-family: "Open Sans", sans-serif;
@@ -152,6 +170,8 @@ select:focus {
     z-index: 5;
     left: 50%;
     bottom: 15%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     font-family: "Open Sans", sans-serif;
@@ -164,6 +184,8 @@ select:focus {
     padding: 1rem 3rem;
     border: 1px solid white;
     border-radius: 50px;
+    -webkit-transition: padding 0.25s ease-out;
+    -o-transition: padding 0.25s ease-out;
     transition: padding 0.25s ease-out;
 }
 
@@ -183,6 +205,8 @@ select:focus {
     z-index: 5;
     left: 50%;
     bottom: 50px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     font-family: "Open Sans", sans-serif;
@@ -197,6 +221,8 @@ select:focus {
     z-index: 5;
     left: 50%;
     top: 90px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     font-family: "Open Sans", sans-serif;
@@ -209,6 +235,8 @@ select:focus {
     padding: 1rem 2rem;
     border: 1px solid white;
     border-radius: 50px;
+    -webkit-transition: padding 0.25s ease-out;
+    -o-transition: padding 0.25s ease-out;
     transition: padding 0.25s ease-out;
 }
 
@@ -217,10 +245,14 @@ select:focus {
     z-index: 5;
     left: 50%;
     bottom: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 2rem;
     color: white;
     padding: 10px;
+    -webkit-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
     transition: all 0.15s linear;
 }
 
@@ -242,6 +274,8 @@ select:focus {
     position: absolute;
     top: 55%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -321,11 +355,26 @@ select:focus {
     position: absolute;
     top: calc(50% - 25px);
     left: 20px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     width: 100px !important;
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: -webkit-flex;
+
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
 }
 
@@ -336,6 +385,8 @@ select:focus {
 }
 
 .social-container a i {
+    -webkit-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
     transition: 0.15s ease-out;
 }
 
@@ -345,10 +396,9 @@ select:focus {
 
 #contact-section {
     height: 100vh;
-    background: url("slideshow/11.jpg");
+    background: url("slideshow_1080p/10.jpg");
     background-size: cover;
     position: relative;
-    background-attachment: fixed;
 }
 
 #contact-section h1 {
@@ -356,6 +406,8 @@ select:focus {
     z-index: 5;
     top: 30%;
     left: 7.5%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 
     color: white;
@@ -371,6 +423,8 @@ select:focus {
     z-index: 5;
     top: 45%;
     left: 7.5%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 
     color: white;
@@ -386,6 +440,8 @@ select:focus {
     z-index: 5;
     top: 50%;
     right: 7.5%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 
     height: auto;
@@ -445,6 +501,8 @@ input[type="submit"] {
     padding: 1rem 3rem;
     border: 1px solid white;
     border-radius: 50px;
+    -webkit-transition: padding 0.25s ease-out;
+    -o-transition: padding 0.25s ease-out;
     transition: padding 0.25s ease-out;
 }
 
@@ -502,6 +560,8 @@ input[type="submit"]:hover {
     z-index: 5;
     top: 50px;
     left: 375px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     font-family: "Open Sans", sans-serif;
@@ -515,6 +575,8 @@ input[type="submit"]:hover {
     z-index: 5;
     bottom: 30px;
     left: 440px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     font-family: "Open Sans", sans-serif;
@@ -527,6 +589,8 @@ input[type="submit"]:hover {
     position: absolute;
     z-index: 5;
     bottom: 62px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     font-family: "Open Sans", sans-serif;
@@ -539,10 +603,22 @@ input[type="submit"]:hover {
     padding: 1rem 4rem;
     border: 1px solid white;
     border-radius: 50px;
+    -webkit-transition: padding 0.25s ease-out;
+    -o-transition: padding 0.25s ease-out;
     transition: padding 0.25s ease-out;
 }
 
 .my-footer .language:hover {
     background: white;
     color: black;
+}
+
+/*---------------------------------------------------------
+----- ANIMATIONS
+---------------------------------------------------------*/
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4 {
+    opacity: 0;
 }
